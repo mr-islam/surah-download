@@ -1,4 +1,6 @@
 # surah-downloader
+EDIT: quranicaudio.com is kind enough to provide torrents for all of their audio. Please use those, and not this downloader that will use their bandwidth.
+
 Mass download your favorite surahs from quranicaudio.com
 
 This was a good project, but I *just* noticed on the website page that they include a torrent link at the very top to download all the audio files -_-
