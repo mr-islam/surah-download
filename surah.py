@@ -1,5 +1,5 @@
 from requests import get
-
+import names
 q_reciter = input('Which reciter would you like to listen to? \n 1 - Mishary Rashid Al \'Afasy \n 2 - [coming soon!] \n')
 
 if q_reciter == 1:
@@ -17,11 +17,12 @@ q_surahs = input('Would you like to download all the Surahs? \n 1 - Yes, all of 
 ##    #bla
 
 surah_number = 1 
-#surah_url = str(surah_number).zfill(3)
 for i in range(3):
-    url = "http://download.quranicaudio.com/quran/" + reciter + "/" + str(surah_number) +  ".mp3"
-    print(url)
+    url = "http://download.quranicaudio.com/quran/" + reciter + "/" + str(surah_number).zfill(3) +  ".mp3"
+    print('Downloading Surah ' + str(surah_number))
+    
     int(surah_number)
+    print('incrementing... \n')
     surah_number += 1
     str(surah_number)
 """
